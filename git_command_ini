@@ -3,3 +3,8 @@ git config --global user.email "absee1107@yahoo.com"
 git config --global color.ui auto
 git remote add origin https://github.com/absee1107/Git-Demo.git
 git pull origin main
+git add .
+git commit -m "intial Message"
+git push
+git push --set-upstream origin master
+git checkout -b sample
